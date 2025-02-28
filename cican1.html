@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--
+Tag Meta viewport berguna agar layout menyesuaikan
+dengan device (desktop/mobile/tablet)
+
+-->
+<head>
+<title>My Portofolio</title>
+</head>
+<body>
+<style type="text/css">
+*{
+margin:0;/* restart padding dan margin*/
+padding:0;
+}
+header{
+background:#212121;
+color:#ffffff;
+padding-top:20px;
+text-align:center;
+font-size:20px;
+width:100%;
+height:45px;
+}
+nav{
+display:flex;/*menggunakam display flexx*/
+flex-direction:row;/*flex row berari sejajar ga kebawah*/
+background:#F5F5DC;
+height:auto;
+width:100%;
+justify-content:space-around;/*space around menbuat item jaraknya sama dan menambahkan jarak disisi kan dan kiri layar*/
+}
+
+a{
+text-decoration:none;
+color:#808080;
+padding:10px 10px 10px 10px;
+font-size:18px;
+font-weight:bold;/*membuat font tebal di css*/
+}
+nav a:focus{ /*:focus berfungsi agar link diklik berubah warna*/
+background:#B9B28A;
+color:white;
+margin:0;
+}
+
+h1 {
+font-size: 30px;
+text-align: center;
+color: #808080;
+margin-top: 20px;
+}
+img {
+border-radius:15px;
+width:200px;
+margin:15px;
+pandding:30px;
+margin-top:10px;
+}
+section{
+width:80%;
+margin:auto;
+background:#F5F5DC;
+padding:20px;
+border-radius:15px;
+}
+h2{
+border-radius:15px;
+margin-top:3px;
+text-align:center;
+color:#808080;
+padding:15px;
+}
+.biodata {
+list-style:none;
+padding:0px;
+}
+.biodata li {
+padding:10px;
+font-size:18px;
+color: #212121;
+border-bottom:1px solid #808080;/*solid untuk garis pemisah bawa pada teks*/
+}
+.biodata li:last-child {/*menghilangkan garis yg paling bawah*/
+border-bottom: none;
+}
+.p{
+text-align:center;
+border:5px dotted #808080;
+}
+.hobby{
+margin:4px;
+text-align:center;
+font-weight:bold;
+color:#818181;
+border:20px dashed #B9B28A;
+list-style:none;
+}
+</style>
+</head>
+<body>
+<header>Website CitAnd</header>
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+<a href="login.html">Login</a>
+</nav>
+<h1>Hello, I'm Citra Andini</h1>
+<center>
+<img src="icy.jpg">
+</center>
+<section>
+<h2><b>BIODATA</b></h2>
+<ul class="biodata">
+<li><b>Nama:</b> Citra Andini</li>
+<li><b>Umur:</b> 19 tahun</li>
+<li><b>Alamat:</b> Perbaungan</li>
+<li><b>Pendidikan:</b> S1 Teknik Informatika</li>
+<li><b>Hobi:</b> Menari,Memasak,dan Menulis</li>
+</ul>
+</section>
+<h2>Cari tahu tentang citra yukk <3 </h2>
+<section>
+<div class="p">Hallo semuanya,kenalin saya CITRA ANDINI biasa di panggil <ins><b>citra</b></ins> saya kelahiran tahun 2005,anak ke-2 dari 3 bersaudara.
+Citra itu anaknya <ins>introvet</ins> parahh,tidak suka tempat keramaian.
+Suka banget sama yang namanya kucing,bisa di bilang <ins>Cat Lovers</ins>.Makanan fav donat ,minuman fav apa aja kecuali kopi yang pait,tidak suka ikan,suka sayur,
+warna fav blue, oke segitu dulu hahahaha, thankss.
+</div>
+</section><br>
+<ul class="hobby">
+<h1><font face="times new roman">My Hobby</font></h1><br>
+<h1>Dancing</h1>
+<li><img src="DANCER.jpg"></li>
+<h1>Cooking</h1>
+<li><img src="Cook.jpg"></li>
+<h1>Writing</h1>
+<li><img src="Write.jpg"></li>
+</ul>
+</body>
+</html>
